@@ -21,6 +21,7 @@ namespace ElectronicDailyyyApplication
         {
             noteTaker form2 = new noteTaker();
             form2.Show();
+            this.Hide();
         }
     }
 }

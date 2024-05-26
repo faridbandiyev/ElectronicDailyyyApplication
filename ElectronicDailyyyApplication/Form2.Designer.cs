@@ -42,22 +42,23 @@
             // 
             // titleBox
             // 
-            this.titleBox.Location = new System.Drawing.Point(395, 36);
+            this.titleBox.Location = new System.Drawing.Point(395, 82);
             this.titleBox.Name = "titleBox";
-            this.titleBox.Size = new System.Drawing.Size(336, 22);
+            this.titleBox.Size = new System.Drawing.Size(350, 22);
             this.titleBox.TabIndex = 0;
             // 
             // noteBox
             // 
-            this.noteBox.Location = new System.Drawing.Point(395, 93);
+            this.noteBox.Location = new System.Drawing.Point(395, 141);
             this.noteBox.Multiline = true;
             this.noteBox.Name = "noteBox";
-            this.noteBox.Size = new System.Drawing.Size(336, 267);
+            this.noteBox.Size = new System.Drawing.Size(350, 275);
             this.noteBox.TabIndex = 1;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(392, 17);
+            this.label1.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(391, 56);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(339, 23);
             this.label1.TabIndex = 2;
@@ -66,7 +67,8 @@
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(392, 67);
+            this.label2.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(392, 115);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(339, 23);
             this.label2.TabIndex = 3;
@@ -76,6 +78,7 @@
             // previousNotes
             // 
             this.previousNotes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.previousNotes.BackgroundColor = System.Drawing.Color.FloralWhite;
             this.previousNotes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.previousNotes.Location = new System.Drawing.Point(12, 17);
             this.previousNotes.Name = "previousNotes";
@@ -87,9 +90,10 @@
             // 
             // loadButton
             // 
-            this.loadButton.Location = new System.Drawing.Point(12, 384);
+            this.loadButton.Font = new System.Drawing.Font("Montserrat Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loadButton.Location = new System.Drawing.Point(12, 366);
             this.loadButton.Name = "loadButton";
-            this.loadButton.Size = new System.Drawing.Size(182, 50);
+            this.loadButton.Size = new System.Drawing.Size(179, 50);
             this.loadButton.TabIndex = 5;
             this.loadButton.Text = "Load";
             this.loadButton.UseVisualStyleBackColor = true;
@@ -97,9 +101,10 @@
             // 
             // deleteButton
             // 
-            this.deleteButton.Location = new System.Drawing.Point(204, 384);
+            this.deleteButton.Font = new System.Drawing.Font("Montserrat Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deleteButton.Location = new System.Drawing.Point(207, 366);
             this.deleteButton.Name = "deleteButton";
-            this.deleteButton.Size = new System.Drawing.Size(182, 50);
+            this.deleteButton.Size = new System.Drawing.Size(179, 50);
             this.deleteButton.TabIndex = 6;
             this.deleteButton.Text = "Delete";
             this.deleteButton.UseVisualStyleBackColor = true;
@@ -107,19 +112,21 @@
             // 
             // newNoteButton
             // 
-            this.newNoteButton.Location = new System.Drawing.Point(395, 384);
+            this.newNoteButton.Font = new System.Drawing.Font("Montserrat Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.newNoteButton.Location = new System.Drawing.Point(569, 26);
             this.newNoteButton.Name = "newNoteButton";
-            this.newNoteButton.Size = new System.Drawing.Size(157, 50);
+            this.newNoteButton.Size = new System.Drawing.Size(85, 42);
             this.newNoteButton.TabIndex = 7;
-            this.newNoteButton.Text = "New Note";
+            this.newNoteButton.Text = "New";
             this.newNoteButton.UseVisualStyleBackColor = true;
             this.newNoteButton.Click += new System.EventHandler(this.newNoteButton_Click);
             // 
             // saveButton
             // 
-            this.saveButton.Location = new System.Drawing.Point(574, 384);
+            this.saveButton.Font = new System.Drawing.Font("Montserrat Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveButton.Location = new System.Drawing.Point(660, 26);
             this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(157, 50);
+            this.saveButton.Size = new System.Drawing.Size(85, 42);
             this.saveButton.TabIndex = 8;
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = true;
